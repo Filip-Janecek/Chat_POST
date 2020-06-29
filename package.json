@@ -1,8 +1,0 @@
-{
-  "name": "Chat_POST",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "dateformat": "^3.0.3"
-  }
-}

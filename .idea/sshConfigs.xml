@@ -3,6 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="node-16.rosti.cz" id="b3d4c0a7-39c3-4a28-a908-0ba829d51728" port="16705" customName="rosti" nameFormat="CUSTOM" username="app" />
+      <sshConfig authType="PASSWORD" host="node-16.rosti.cz" id="9ccd0010-b930-4493-8f40-755168e620a8" port="16705" customName="rosti" nameFormat="CUSTOM" username="app" />
     </configs>
   </component>
 </project>
