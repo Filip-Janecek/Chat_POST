@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const url = require("url");
 const dateformat = require("dateformat");
-
+const PORT = process.env.PORT || 8080;
 
 
 const DATA_FILE = "data.json";
@@ -64,6 +64,10 @@ function main(req,res) {
     }
 }
 
+if(process.env.NODE_ENV === 'production'){
+
+}
+
 let srv = http.createServer(main);
-srv.listen(8080);
+srv.listen(PORT);
 console.log("Bezi na http://localhost:8080");
